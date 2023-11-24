@@ -72,3 +72,61 @@ console.log(`The dog is ${dog_years} in dog years`)
 // we get a remainder of 2, even though there are no minutes leftover.
 
 
+
+
+
+// function $(selector){
+//   return document.querySelector(selector)
+// }
+
+// const button = "button";
+// const myButton = ".my-button";
+// const myDarkButton = ".my-button.dark"
+
+// console.log($(button));
+// console.log($(myButton));
+// console.log($(myDarkButton));
+console.clear();
+
+// const button = document.createElement("button");
+
+// button.innerText = "cool"
+
+
+
+// document.body.appendChild(button)
+
+// const list = document.createElement("ul");
+// document.body.appendChild(list);
+
+
+function _(type) {
+ element = document.createElement(type);
+  document.body.appendChild(element);
+  element.innerText = "main list"
+  return element;
+}
+
+
+
+const list = _("ul");
+const navigation = _("navigation")
+
+
+
+
+function itemsInList(item) {
+  
+  element = document.createElement(item , parent)
+  parent.appendChild(element);
+  element.innerText = "Here is my item"
+  return element;
+  
+}
+
+itemsInList("li", list);
+itemsInList("li", list);
+itemsInList("li", list);
+
+
+
