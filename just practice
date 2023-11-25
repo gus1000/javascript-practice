@@ -124,6 +124,174 @@ function itemsInList(item) {
   
 }
 
+
+// const button = document.querySelector("button");
+
+// // function handleClick() {
+// //   if (button.innerText === "Click me") {
+// //     button.innerText = "Clicked";
+// //   } else {
+// //     button.innerText = "Click me";
+// //   }
+// // }
+
+// // button.addEventListener("click", handleClick);
+
+// // const button = document.querySelector("button");
+// // function handleClick() {
+// //   if (button.innerText === "CLick me") {
+// //     button.innerText = "CLicked";
+// // } else {
+// //   button.innerText = "CLick me";
+// //   }
+// // }
+
+// // button.addEventListener("click", handleClick)
+
+// // const button = document.querySelector("button");
+
+// // function handleClick() {
+// //   if (button.innerText = "click me") {
+// //     button.innerText = "clicked"
+// //   } else {
+// //     button.innerText = "click me"
+// //   }
+// // }
+
+// // button.addEventListener("click" , handleClick)
+
+// // const button = document.querySelector("button");
+// // const h1 = document.createElement("h1");
+// // let counter = 0;
+
+// // function handleClick() {
+
+// //   button.innerText = ++counter;
+
+// //   }
+
+// // //we need to re assign the counter.innerText to the button
+
+// // h1.innerText = "hello"
+
+// // button.addEventListener("click", handleClick);
+// // document.body.appendChild(h1)
+
+// // button.style.color = "red";
+// // button.style.backgroundColor = "purple"
+
+// //   if (button.innerText === "click me") {
+// //     button.innerText = "clicked";
+// //   } else {
+// //     button.innerText = "click me";
+
+// //       button.classList.toggle("red");
+// //         button.classList.toggle("bg-blue");
+
+// // h1.classList.toggle("red");
+// // h1.classList.toggle("bg-blue")
+
+// //challenge: if the counter is even, display some text saying its even.
+
+// // const button = document.querySelector("button");
+// // const h1 = document.createElement("h1")
+// // let counter = 0;
+
+// // function handleClick() {
+// //   button.innerText = ++counter;
+// //   checkIsEven(counter)
+ 
+
+
+
+    
+    
+  
+// // }
+
+// // button.innerText = counter;
+// // button.addEventListener("click", handleClick);
+
+// // function checkIsEven(counter){
+// //   if (counter % 2 === 0) {
+// //   document.body.appendChild(h1);
+// //   return h1.innerText = `${counter } is an even number`
+// //   } else {
+// //      document.body.appendChild(h1);
+// //   return h1.innerText = `${counter } is an odd number`
+// //   }
+// // }  
+
+// //create prompt and based on the prompt, make the prompt change style
+// // let's go with length.
+
+// // const button = document.querySelector("button");
+// // const h1 =  document.createElement("h1");
+// //   document.body.appendChild(h1);
+
+
+// // let counter = 0
+
+
+// // function handleClick() {
+  
+// //   const text = prompt("tell me something");
+// // //you want to call the function with the html element.
+// //   h1.innerText = text;
+// //       changeStyle(h1);
+
+  
+  
+// // }
+
+// // button.addEventListener("click", handleClick)
+
+// // function changeStyle(string) {
+// //   textLength = string.innerText.length;
+// //   if ( textLength < 5) {
+// //      string.style.color = "red";
+// //   } else {
+// //      string.innerText.style.color ="blue";
+    
+// //   }
+// // }
+
+// console.clear();
+
+
+
+// // window.addEventListener('mousemove', function(e) {
+  
+// //   console.log('moving the mouse', e.clientX, window.innerWidth)
+// //   document.body.style.background = `rgba(0,0,0, ${e.clientX/window.innerWidth})`
+// // })
+
+
+// const box = document.querySelector(".box");
+// window.addEventListener("click", function(e) {
+  
+//   const width = window.innerWidth;
+//   const height = window.innerHeight;
+  
+//   randomPosition(width, height)
+
+ 
+
+  
+  
+//   box.style.left = `${randomX}px`;
+//     box.style.top= `${randomY}px`;
+  
+  
+//   randomPosition(x , y) {
+//      const randomX =  Math.round(Math.random() * x);
+//   const randomY =  Math.round(Math.random() * y);
+    
+//     return x , y;
+    
+//   }
+
+// })
 itemsInList("li", list);
 itemsInList("li", list);
 itemsInList("li", list);
